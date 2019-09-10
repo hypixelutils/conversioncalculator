@@ -1,5 +1,5 @@
 function boxEdited(num) {
-	let input = []
+	input = []
 	input[0] = document.getElementById("diamonds")
 	input[1] = document.getElementById("ED")
 	input[2] = document.getElementById("EDB")
