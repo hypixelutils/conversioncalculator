@@ -1,12 +1,18 @@
 <div id="boxes" style="text-align: center;">
-	<label>Diamonds:</label>           <label>Enchanted Diamonds:</label>           <label>Enchanted Diamond Blocks:</label>           <label>Total Cost:</label><br> <input type="text" id="diamonds" onkeyup="boxEdited(0)">
-	<label>          </label><input type="text" id="ED" onkeyup="boxEdited(1)">
-	<label>          </label><input type="text" id="EDB" onkeyup="boxEdited(2)">
-	<label>          </label><input type="text" id="cost" onkeyup="boxEdited(3)">
+	<label>Diamonds:</label><label>Enchanted Diamonds:</label><label>Enchanted Diamond Blocks:</label><label>Total Cost:</label><br> <input type="text" id="diamonds" onkeyup="boxEdited(0)">
+	<input type="text" id="ED" onkeyup="boxEdited(1)">
+	<input type="text" id="EDB" onkeyup="boxEdited(2)">
+	<input type="text" id="cost" onkeyup="boxEdited(3)">
 </div>
 <script src="index.js"></script>
 <style>
 	body {
 		background-image: url("cc_2_1920x1080.png");
+	}
+	label {
+		margin: 10px;
+	}
+	input {
+		margin: 10px;
 	}
 </style>
